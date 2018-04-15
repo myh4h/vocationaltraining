@@ -1,0 +1,26 @@
+{
+  "name": "vocationaltraining",
+  "version": "1.0.0",
+  "description": "Vocational Training -- Practice Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myh4h/vocationaltraining.git"
+  },
+  "keywords": [
+    "Self-help"
+  ],
+  "author": "mtaylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myh4h/vocationaltraining/issues"
+  },
+  "homepage": "https://github.com/myh4h/vocationaltraining#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0"
+  }
+}
