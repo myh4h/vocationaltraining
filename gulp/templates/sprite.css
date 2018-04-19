@@ -3,9 +3,15 @@ Instead edit gulp/templates/sprite */
 
 {{#shapes}}
   {{#first}}
+<<<<<<< HEAD
     .icon {
       background-image: url('/assets/images/sprites/{{{sprite}}}');
     }
+=======
+  .icon {
+    background-image: url('/assets/images/sprites/{{{sprite}}}');
+  }
+>>>>>>> gulp-sprite
   {{/first}}
 
   .icon--{{base}} {
@@ -13,4 +19,8 @@ Instead edit gulp/templates/sprite */
     height: {{height.outer}}px;
     background-position: {{position.relative.xy}};
   }
+<<<<<<< HEAD
 {{/shapes}}
+=======
+{{/shapes}}
+>>>>>>> gulp-sprite
